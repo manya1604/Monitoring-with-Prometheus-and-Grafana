@@ -26,7 +26,7 @@ This project sets up a complete monitoring stack using Prometheus and Grafana wi
 docker-compose up -d
 ```
 
-![Image](/assets/101.png)
+![Image](https://github.com/manya1604/Monitoring-with-Prometheus-and-Grafana/blob/main/Screenshot%202025-04-24%20000622.png)
 
 ## Accessing the Services
 
@@ -35,9 +35,9 @@ docker-compose up -d
     -   Default credentials: admin/admin
 -   **Node Exporter Metrics**: http://localhost:9100/metrics
 
-![Image](/assets/2.png)
-![Image](/assets/3.png)
-![Image](/assets/4.png)
+![Image](https://github.com/manya1604/Monitoring-with-Prometheus-and-Grafana/blob/main/Screenshot%202025-04-24%20001300.png)
+![Image](https://github.com/manya1604/Monitoring-with-Prometheus-and-Grafana/blob/main/Screenshot%202025-04-24%20001348.png)
+![Image](https://github.com/manya1604/Monitoring-with-Prometheus-and-Grafana/blob/main/Screenshot%202025-04-23%20233909.png)
 
 ## Verify Node Exporter and Grafana UP in Prometheus
 
