@@ -1,8 +1,6 @@
 # Monitoring Stack with Prometheus and Grafana
 
-<div align="center">
-    <img src="/assets/12.png" alt="Grafana Logo" style="width: 400px; height: auto;">
-</div>
+
 
 This project sets up a complete monitoring stack using Prometheus and Grafana with Node Exporter for system metrics collection.
 
@@ -41,13 +39,13 @@ docker-compose up -d
 
 ## Verify Node Exporter and Grafana UP in Prometheus
 
-![Image](/assets/5.png)
+![Image](5.png)
 
 ## Setting Up Grafana Dashboard
 
 1. Log in to Grafana (http://localhost:3000)
 
-![Image](/assets/6.png)
+![Image](6.png)
 
 2. Add Prometheus as a data source:
     - Go to Connections → Data Sources
@@ -56,7 +54,7 @@ docker-compose up -d
     - URL: http://prometheus:9090
     - Click "Save & Test"
 
-![Image](/assets/7.png)
+![Image](7.png)
 
 3. Import the Node Exporter dashboard:
     - Click "+" → Import Dashboard
@@ -64,12 +62,12 @@ docker-compose up -d
     - Select Prometheus data source
     - Click Import
 
-![Image](/assets/8.png)
-![Image](/assets/9.png)
+![Image](8.png)
+![Image](9.png)
 
 ## Dashboard
 
-![Image](/assets/10.png)
+![Image](10.png)
 
 ## Configuration Files
 
